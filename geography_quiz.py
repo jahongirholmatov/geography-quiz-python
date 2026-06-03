@@ -12,7 +12,6 @@ quiz_data = [
     {"q": "What is the capital city of France?\na) Madrid, b) Rome, c) Lisbon, d) Paris", "a": "d"}
 ]
 
-
 random.shuffle(quiz_data)
 
 score = 0 
@@ -29,7 +28,6 @@ for item in quiz_data:
         print("Correct! 🎉")
         score += 1
     else:
-        # Xato bo'lsa, to'g'ri javobni ko'rsatish[cite: 1]
         print(f"False! The correct answer was: {item['a']}")
 
 print("-" * 30)
