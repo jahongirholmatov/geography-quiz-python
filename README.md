@@ -1,45 +1,25 @@
-# geography-quiz-python
-A simple and interactive geography quiz game built with Python
+# 🌍 Global Geography Quiz
 
+An interactive and entertaining command-line geography quiz game built with Python. Test your knowledge about world capitals, continents, oceans, and geographical facts!
 
-🌏 Global Geography Quiz
-This project is an interactive and engaging geography quiz created with the Python programming language. It is designed to test users' knowledge of world countries, capitals, and geographical facts.
+## 🎮 How to Play
+1. The game will randomly shuffle 10 questions.
+2. For each question, you will be presented with 4 options (a, b, c, or d).
+3. Type your answer and press **Enter**.
+4. At the end of the quiz, the system will display your final score.
 
-🚀 About the Project
-Objective: To reinforce geographical knowledge in an entertaining way.
+## 🚀 Features
+* **Randomized Gameplay**: Every time you run the game, the order of questions is shuffled using the `random` module.
+* **Instant Feedback**: Immediate notification if your answer is correct or incorrect.
+* **Score Tracking**: Keeps track of your progress and provides a final score summary.
 
-Features:
+## 🛠️ Technologies
+* **Python**: The core programming language used.
+* **Random Module**: Used to randomize the quiz data for a unique experience each time.
 
-Randomly selected questions (using random shuffle).
+## 💻 How to Run
+Ensure you have **Python** installed on your computer.
 
-Real-time answer validation.
-
-Final score calculation system.
-
-🛠 Technologies
-Python: Main programming language.
-
-Random module: Used for shuffling questions.
-
-⚙️ How to run
-Ensure you have Python installed on your computer.
-
-Clone the repository:
-
-git clone https://github.com/USERNAME/geography-quiz-python.git
-
-3. Navigate to the folder and run the program:
+1. **Clone the repository:**
    ```bash
-cd geography-quiz-python
-python geography_quiz.py
-📝 License
-This project is open-source under the MIT License.
-
-👨‍💻 Author
-Jahongir
-If you like this project, don't forget to star it ⭐️!
-
-Notes:
-Remember to replace USERNAME in the link above with your actual GitHub username.
-
-If you add new features (like difficulty levels), make sure to update this README file to reflect those changes.
+   git clone [https://github.com/jahongirholmatov/geography-quiz-python.git](https://github.com/jahongirholmatov/geography-quiz-python.git)
